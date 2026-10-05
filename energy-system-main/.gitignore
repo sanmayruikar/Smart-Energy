@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.env
+.DS_Store
+
+# Builds
+dist/
+build/
+
+# ML Artifacts (Temporary datasets)
+ml/training/synthetic_energy_dataset.csv
+
+# IDE & Logs
+.vscode/
+.idea/
+*.log

@@ -1,0 +1,17 @@
+{
+  "model": "GradientBoostingRegressor",
+  "mae": 0.0019,
+  "rmse": 0.0043,
+  "r2": 0.9998,
+  "features": [
+    "hour",
+    "day",
+    "day_of_week",
+    "is_weekend",
+    "voltage",
+    "current",
+    "temperature",
+    "lag_power_1h",
+    "lag_power_24h"
+  ]
+}
